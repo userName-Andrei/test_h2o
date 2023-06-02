@@ -1,0 +1,27 @@
+@import '../../styles/variables.scss';
+
+.navbarItem {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 64px;
+    height: 64px;
+    background: none;
+    border-radius: 16px;
+    transition: .3s;
+
+    &:has(.link.active) {
+        background: $navlink_active;
+    }
+
+    &:not(:last-child) {
+        margin-bottom: 22px;
+    }
+}
+
+.link {
+    &.active {
+        
+    }
+}

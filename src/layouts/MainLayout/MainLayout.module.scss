@@ -1,0 +1,15 @@
+@import '../../styles/variables.scss';
+
+.content {
+    display: flex;
+    overflow: hidden;
+    border-radius: 56px;
+    background: $main-gradient;
+    width: 100%;
+    height: 100%;
+}
+
+.icon {
+    color: $white;
+    font-size: 32px;
+}
