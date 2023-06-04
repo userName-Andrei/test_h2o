@@ -1,0 +1,19 @@
+@import '../../styles/variables.scss';
+
+.navlinks {
+    display: flex;
+    position: relative;
+    transform: translateX(0px);
+    transition: .3s;
+}
+
+.greenLine {
+    position: absolute;
+    bottom: -14px;
+    left: 0;
+    width: 0px;
+    height: 3px;
+    border-radius: 50px;
+    background-color: $primary;
+    transition: .3s;
+}
