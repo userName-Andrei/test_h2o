@@ -1,0 +1,17 @@
+@import '../../styles/variables.scss';
+
+.item {
+    &:not(:last-child) {
+        margin-right: 40px;
+    }
+}
+
+.link {
+    white-space: nowrap;
+    color: $text_light;
+    transition: .3s;
+
+    &.active {
+        color: $text_dark;
+    }
+}
