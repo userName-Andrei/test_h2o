@@ -1,6 +1,5 @@
 import React, { FC } from 'react';
 import { Outlet } from 'react-router-dom';
-import styles from './MainLayout.module.scss';
 import NavBar from '../../components/NavBar';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {
@@ -9,10 +8,11 @@ import {
     faBoxArchive,
     faUserGroup,
     faCoins,
-    faChartPie,
     faGear
 } from '@fortawesome/free-solid-svg-icons';
 import NavBarItem from '../../components/NavBarItem';
+
+import styles from './MainLayout.module.scss';
 
 const MainLayout: FC = () => {
     return (
@@ -38,7 +38,7 @@ const MainLayout: FC = () => {
                 </NavBarItem>
             </NavBar>
 
-            <main>
+            <main className={styles.content}>
                 <Outlet />
             </main>
         </div>
