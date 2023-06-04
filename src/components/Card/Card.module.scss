@@ -1,0 +1,17 @@
+@import '../../styles/variables.scss';
+
+.card {
+    width: 100%;
+    height: 100%;
+    border-radius: 56px;
+
+    &_light {
+        padding: 47px 40px;
+        background-color: $white;
+    } 
+
+    &_dark {
+        padding: 27px 40px;
+        background-color: $card_extra;
+    }
+}
