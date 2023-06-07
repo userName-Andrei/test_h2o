@@ -1,0 +1,57 @@
+@import '../../styles/variables.scss';
+
+.pagination {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 36px;
+    font-size: 0.875rem;
+
+    &__row {
+        display: flex;
+        gap: 40px;
+    }
+
+    &__info {
+        line-height: 44px;
+        letter-spacing: -0.56px;
+    }
+}
+
+.pageBtn, .iconBtn {
+    background: transparent;
+    line-height: 22px;
+    font-size: 0.875rem;
+    font-weight: 600;
+
+    &.active {
+        color: $primary;
+    }
+}
+
+.iconBtn {
+    display: flex;
+    align-items: center;
+
+    &_disable {
+        cursor: not-allowed;
+        opacity: 0.5;
+    }
+}
+
+.pagesBtns {
+    display: flex;
+    gap: 20px;
+}
+
+.selectPagination {
+    margin-left: 15px;
+    font-weight: 700;
+    font-size: 0.75rem;
+    letter-spacing: -0.56px;
+    color: $text_dark;
+    background: $white;
+    border: 1.5px solid $card_extra;
+    border-radius: 6px;
+    padding: 5px 5px 5px 10px;
+}

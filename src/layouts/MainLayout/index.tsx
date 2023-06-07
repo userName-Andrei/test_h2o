@@ -21,19 +21,19 @@ const MainLayout: FC = () => {
                 <NavBarItem linkTo='/'>
                     <FontAwesomeIcon icon={faCalendarDays} className={styles.icon} />
                 </NavBarItem>
-                <NavBarItem linkTo='/'>
+                <NavBarItem linkTo='/todos'>
                     <FontAwesomeIcon icon={faRectangleList} className={styles.icon} />
                 </NavBarItem>
-                <NavBarItem linkTo='/'>
+                <NavBarItem linkTo='/archiv'>
                     <FontAwesomeIcon icon={faBoxArchive} className={styles.icon} />
                 </NavBarItem>
-                <NavBarItem linkTo='/users'>
+                <NavBarItem linkTo='/users/common-base'>
                     <FontAwesomeIcon icon={faUserGroup} className={styles.icon} />                    
                 </NavBarItem>
-                <NavBarItem linkTo='/'>
+                <NavBarItem linkTo='/money'>
                     <FontAwesomeIcon icon={faCoins} className={styles.icon} />
                 </NavBarItem>
-                <NavBarItem linkTo='/'>
+                <NavBarItem linkTo='/settings'>
                     <FontAwesomeIcon icon={faGear} className={styles.icon} />
                 </NavBarItem>
             </NavBar>

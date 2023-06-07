@@ -1,0 +1,113 @@
+@import '../../styles/variables.scss';
+
+.wrapper {
+    border-radius: 32px;
+    font-size: 0.75rem;
+}
+
+.table {
+    width: 100%;
+    margin-bottom: 20px;
+    border: 1.5px solid $card_extra;
+    border-collapse: collapse;
+    background-color: $white;
+    border-radius: 32px 32px 0px 0px;
+
+    th {
+        font-weight: bold;
+        color: $primary;
+        border: 1.5px solid $card_extra;
+        text-align: left;
+        font-style: normal;
+        line-height: 120%;
+        padding: 10px 17px;
+
+        &:first-child {
+            text-align: center;
+        }
+
+        button {
+            font-size: 0.75rem;
+            color: $primary;
+        }
+    }
+}
+
+.title {
+    font-weight: bold;
+    color: $primary;
+    border: 1.5px solid $card_extra;
+    text-align: left;
+    font-style: normal;
+    line-height: 120%;
+    padding: 10px 17px;
+
+    &:first-child, &[colspan="6"] {
+        text-align: center;
+    }
+
+    &__btn {
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+        align-items: center;
+        font-weight: 700;
+        line-height: 120%;
+        font-size: 0.75rem;
+        color: $primary;
+        background: transparent;
+    }
+
+    &__icon {
+        color: #989FA3;
+    }
+}
+
+.bodyRow {
+
+    &:nth-child(odd) {
+        background-color: rgba(248, 248, 248, 0.5);
+    }
+
+    &:nth-child(even) {
+        background-color: $white;
+
+        .cell:nth-child(n+3) {
+            background-color: rgba(229, 248, 246, 0.5);
+        }
+    }
+
+    &.active {
+        .cell:nth-child(2) {
+            color: $primary;
+        }
+    }
+}
+
+.cell {
+    border: 1.5px solid $card_extra;
+    transition: .3s;
+
+    &__input {
+        width: 100%;
+        height: 30px;
+        border: 1px solid $text_dark;
+        padding: 0px 5px;
+    }
+
+    &_changed {
+        padding: 5px 0px !important;
+    }
+
+    &:not(:first-child) {
+        padding: 22px 0px 22px 17px;
+    }
+
+    &:first-child {
+        text-align: center;
+    }
+}
+
+.rotateSortIcon {
+    transform: rotate(180deg);
+}

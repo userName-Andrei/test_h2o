@@ -4,14 +4,15 @@
     width: 100%;
     height: 100%;
     border-radius: 56px;
+    overflow: hidden;
 
     &_light {
-        padding: 47px 40px;
+        //padding: 47px 40px 0px;
         background-color: $white;
     } 
 
     &_dark {
-        padding: 27px 40px;
+        //padding: 27px 40px 0px;
         background-color: $card_extra;
     }
 }
