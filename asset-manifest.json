@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/test_h2o/static/css/main.3d65da0d.css",
+    "main.js": "/test_h2o/static/js/main.b1ed5db3.js",
+    "static/media/ProximaNova-Bold.woff": "/test_h2o/static/media/ProximaNova-Bold.1f267da183b3d4fe3d5b.woff",
+    "static/media/ProximaNova-Semibold.woff": "/test_h2o/static/media/ProximaNova-Semibold.a71877a1eef65838ed4c.woff",
+    "static/media/ProximaNova-Extrabld.woff": "/test_h2o/static/media/ProximaNova-Extrabld.64f095e95e4018946cb1.woff",
+    "static/media/Logo.svg": "/test_h2o/static/media/Logo.54e03c9fa4df26692df107d7ce7c53f1.svg",
+    "index.html": "/test_h2o/index.html",
+    "static/media/arrow.svg": "/test_h2o/static/media/arrow.8b0d71cf57a8f26e9dfe8fba3175eea6.svg",
+    "main.3d65da0d.css.map": "/test_h2o/static/css/main.3d65da0d.css.map",
+    "main.b1ed5db3.js.map": "/test_h2o/static/js/main.b1ed5db3.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3d65da0d.css",
+    "static/js/main.b1ed5db3.js"
+  ]
+}
